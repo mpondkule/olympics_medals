@@ -1,0 +1,165 @@
+## millinieum
+
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.97      0.94     21088
+         1.0       0.68      0.45      0.54      3356
+
+    accuracy                           0.90     24444
+   macro avg       0.80      0.71      0.74     24444
+weighted avg       0.88      0.90      0.89     24444
+
+        0.0 	1.0
+0.0 	20368 	720
+1.0 	1841 	1515
+
+ 	importance
+feature 	
+Weight 	0.155
+Height 	0.147
+Age 	0.132
+Year 	0.049
+NOC_USA 0.021
+Sex 	0.020
+
+
+   precision    recall  f1-score   support
+
+         0.0       0.91      0.97      0.94     21088
+         1.0       0.59      0.43      0.50      1107
+         2.0       0.52      0.29      0.38      1098
+         3.0       0.54      0.29      0.38      1151
+
+    accuracy                           0.88     24444
+   macro avg       0.64      0.50      0.55     24444
+weighted avg       0.86      0.88      0.87     24444
+
+
+        0.0 	1.0 	2.0 	3.0
+0.0 	20446 	213 	209 	220
+1.0 	544 	476 	52  	35
+2.0 	678 	66  	322 	32
+3.0 	730 	48 	    34  	339
+
+        importance
+feature 	
+Weight 	0.158
+Height 	0.151
+Age 	0.137
+Year 	0.054
+Sex 	0.020
+NOC_USA 	0.017
+
+## berlin wall
+
+       precision    recall  f1-score   support
+
+         0.0       0.92      0.97      0.94     13413
+         1.0       0.57      0.43      0.49       704
+         2.0       0.47      0.27      0.35       692
+         3.0       0.48      0.27      0.34       716
+
+    accuracy                           0.88     15525
+   macro avg       0.61      0.48      0.53     15525
+weighted avg       0.86      0.88      0.87     15525
+
+        0.0 	1.0 	2.0 	3.0
+0.0 	13005 	122 	130 	156
+1.0 	324 	302 	50   	28
+2.0 	411 	66 	    190     25
+3.0 	451 	39 	    36     	190
+
+ 	importance
+feature 	
+Weight 	0.158
+Height 	0.148
+Age 	0.139
+Year 	0.044
+NOC_Russia 	0.044
+
+### post war 2
+
+        precision    recall  f1-score   support
+
+         0.0       0.92      0.97      0.94      5678
+         1.0       0.55      0.37      0.44       279
+         2.0       0.44      0.27      0.34       270
+         3.0       0.40      0.24      0.30       275
+
+    accuracy                           0.88      6502
+   macro avg       0.58      0.46      0.51      6502
+weighted avg       0.86      0.88      0.87      6502
+
+        0.0 	1.0 	2.0 	3.0
+0.0 	5496 	46 	     70 	66
+1.0 	144 	103 	17 	     15
+2.0 	161 	19 	      74 	16
+3.0 	184 	18        	8 	65
+
+ 	importance
+feature 	
+Weight 	0.159
+Height 	0.154
+Age 	0.139
+Year 	0.025
+NOC_Russia 	0.023
+NOC_USA 	0.021
+
+
+### world war 2
+
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.95      0.92      4286
+         1.0       0.59      0.46      0.52       342
+         2.0       0.47      0.31      0.37       325
+         3.0       0.47      0.30      0.37       304
+
+    accuracy                           0.84      5257
+   macro avg       0.61      0.51      0.54      5257
+weighted avg       0.82      0.84      0.83      5257
+
+
+        0.0 	1.0 	2.0 	3.0
+0.0 	4073 	70 	     68 	75
+1.0 	145 	157 	26   	14
+2.0 	184 	25    	101 	15
+3.0 	180 	13 	      19 	92
+
+        importance
+feature 	
+Weight 	0.141
+Height 	0.134
+Age 	0.125
+Year 	0.027
+Sport_Gymnastics 	0.023
+NOC_USA 	0.020
+
+## world war 1
+
+                precision    recall  f1-score   support
+
+         0.0       0.82      0.91      0.86      1806
+         1.0       0.54      0.44      0.48       243
+         2.0       0.45      0.32      0.37       237
+         3.0       0.43      0.30      0.35       213
+
+    accuracy                           0.75      2499
+   macro avg       0.56      0.49      0.52      2499
+weighted avg       0.73      0.75      0.74      2499
+
+        0.0 	1.0 	2.0 	3.0
+0.0 	1637 	54   	57 	     58
+1.0 	106 	106 	15 	     16
+2.0 	131 	20 	    75       11
+3.0 	117 	15 	    18 	     63
+
+        importance
+feature 	
+Weight 	    0.140
+Height  	0.135
+Age 	   0.125
+Year 	  0.035
+Sport_Gymnastics 	0.034
+NOC_UK 	0.028
+Sport_Football 	0.022
